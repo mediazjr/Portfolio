@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Mediazjr Portfolio</title>
+
 </head>
 
 <body>
-    <header id="header">    
+    <header class="header">    
         <h1>Mario Diaz Jr.</h1>
-
-        <nav>
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -26,7 +26,6 @@
                     <a href="#linked-in">LinkedIn</a>
                 </li>
             </ul>
-        </nav>
 
     </header>
 
@@ -35,7 +34,7 @@
             <img src="assets/images/grateful muerto.jpg"/>
         <h2>About Me</h2>
         <p>
-             I am a full-stack developer with a passion for making intuitive, responsive, and dynamic applications. 
+             I am a full-stack developer with a passion for making intuitive, responsive, and dynamic applications. I come from a background in dialogue editing and sound design, with a strong desire to fuse my knowledge of post production with software development. 
 
         </p>
         </section>
@@ -48,28 +47,35 @@
         </section>
 
         <section>
-            <h4>Contact Me</h4>
-            
+            <h5>Contact Me</h5>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+
         </section>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
