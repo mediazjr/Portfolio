@@ -45,10 +45,10 @@
 }
 
 
-.flex-container h2 {
+/* .flex-container h2 {
     
   
-}
+} */
 
 .flex ul {
     display:flex;
@@ -104,7 +104,6 @@
 }
 
 
-
 #footer h6 {
   text-transform: uppercase;
   text-align: center;
@@ -112,6 +111,8 @@
   background-color: lightblue;
 }
 
-@media screen and 
-    
+@media screen and (max-width: 768px) {
+    .projects, .header, .flex-container {
+    flex-direction: column;
+}
 }
