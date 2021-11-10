@@ -16,16 +16,21 @@
     background-color: lightblue;
     font-size: 40px;
     text-align: center;
-    color: rgb(42, 54, 54);
+    color: black;
     
 }
 
-.header ul, .contact ul{
+.header ul {
+    background-color: lightblue;
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+}
+
+.header a {
+    background-color: lightblue;
 }
 
 .container {
@@ -45,10 +50,22 @@
   
 }
 
+.flex ul {
+    display:flex;
+    flex-direction: row;
+}
 
+.contact h3 {
+    margin-top: 50px;
+    text-align: center;
+}
 
-.contact {
-
+.contact ul {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .about {
@@ -57,18 +74,28 @@
     /* flex: 0 0 33%; */
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    border: black;
+    border-style: hidden;
+    margin-top: 50px;
+    
+}
+
+.flexbox {
+    
+
+}
+
 #text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
 
 }
-
-
-
-
-
-
-
 
 
 
