@@ -12,7 +12,8 @@
 <body>
     <header class="header">    
         <h1>Mario Diaz Jr.</h1>
-            <ul>
+        <!-- ul with href to make nav bar -->
+            <ul >
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
@@ -23,49 +24,56 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
             </ul>
-
     </header>
 
-    <main>
-        <section>
+    <main class="container">
+        <section class="flex-container">
             <img src="assets/images/grateful muerto.jpg"/>
-        <h2 id="flex-right">About Me</h2>
-        <p>
+        <div class="about">
+        <h2>About Me</h2>
+        <p id="text">
              I am a full-stack developer with a passion for making intuitive, responsive, and dynamic applications. I come from a background in dialogue editing and sound design, with a strong desire to fuse my knowledge of post production with software development. I have recently begun working with Blender and Unity to create what will eventually be my first RPG game. Stay tuned for big things in the future!
 
         </p>
+        </div>  
         </section>
 
-        <section>
+        <section >
             <h3>Projects</h3>
-                <ul>
-                    <li>
+            <!-- change this to a div instead of a ul -->
+            <div>
+                    <h4>
                         Sound Design
-                    </li>
-                    <li>
+                    </h4>
+                
                         Dialogue Editing
-                    </li>
-                    <li>
+                    
                         Mixing and Mastering Audio
-                    </li>
-                    <li>
+                    
                         Full-stack 
-                    </li>
-                    <li>
+                    
                         Blender
-                    </li>
-                    <li>
+                    
                         Unity
-                    </li>
-
-                </ul>
-
+                    
+            </div>
 
 
         </section>
 
-        <section>
-            <h5>Contact Me</h5>
+        <section class="contact flex-container">
+            <h3>Contact Me</h3>
+            <ul>
+                <li>
+                    <a href="#phone-number">Phone Number</a>
+                </li>
+                <li>
+                    <a href="#email">Email</a>
+                </li>
+                <li>
+                    <a href="#linked-in">LinkedIn</a>
+                </li>
+            </ul>
 
 
 

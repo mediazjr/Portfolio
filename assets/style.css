@@ -1,6 +1,7 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    background-color: whitesmoke;
 }
 
 .header {
@@ -8,24 +9,59 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
+    /* margin-bottom: auto; */
+
 }
 .header h1 {
-    display: inline;
+    background-color: lightblue;
     font-size: 40px;
     text-align: center;
-    color: darkslategray;
+    color: rgb(42, 54, 54);
+    
 }
-.header ul li {
+
+.header ul, .contact ul{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
     list-style-type: none;
-    display: inline-flex;
-    margin-left: 100px;
-    padding: 0;
 }
 
-#flex-right {
-    display: inline-flex;
+.container {
+    margin: 10px 20px;
+
+}
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
+
+.flex-container h2 {
+  text-decoration: underline;
+  
+}
+
+
+
+.contact {
+
+}
+
+.about {
+    margin-left: 20px;
+    text-align: center;
+    /* flex: 0 0 33%; */
+}
+
+#text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+
+}
 
 
 
@@ -39,6 +75,9 @@
 #footer {
   text-transform: uppercase;
   text-align: center;
-  display: inline-flex;
   padding: 50px;
+}
+
+@media screen and 
+    
 }
