@@ -20,7 +20,7 @@
     
 }
 
-.header ul {
+.header nav {
     background-color: lightblue;
     display: flex;
     /* flex-direction: row; */
@@ -46,7 +46,7 @@
 
 
 .flex-container h2 {
-  text-decoration: underline;
+    
   
 }
 
@@ -58,6 +58,7 @@
 .contact h3 {
     margin-top: 50px;
     text-align: center;
+    
 }
 
 .contact ul {
@@ -86,8 +87,13 @@
     
 }
 
+.projects h2 {
+    width: 100%;
+
+}
+
 .flexbox {
-    
+    flex: 1 0 25%
 
 }
 
@@ -99,10 +105,11 @@
 
 
 
-#footer {
+#footer h6 {
   text-transform: uppercase;
   text-align: center;
   padding: 50px;
+  background-color: lightblue;
 }
 
 @media screen and 
