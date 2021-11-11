@@ -31,7 +31,9 @@
 
 .header a {
     background-color: lightblue;
+    
 }
+
 
 .container {
     margin: 10px 20px;
@@ -43,7 +45,6 @@
     justify-content: space-around;
 
 }
-
 
 /* .flex-container h2 {
     
@@ -57,7 +58,7 @@
 
 .contact h3 {
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -112,7 +113,19 @@
 }
 
 @media screen and (max-width: 768px) {
-    .projects, .header, .flex-container {
+    .projects, .header, .flex-container, .flexbox {
     flex-direction: column;
+    
 }
 }
+
+@media screen and (max-width: 600px) {
+    .projects, .header, .flex-container, .flexbox {
+        font-size: smaller;
+        
+    }
+
+}
+    
+
+
