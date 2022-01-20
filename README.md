@@ -1,12 +1,19 @@
-# Portfolio_hw2
+# Portfolio
 
 ## Description:
 
-For this assignment, I made a basic portfolio with a nav bar in the header that links to different sections of the page contained within my main element tags. I used a placeholder image in the About me section and placed a flexbox to the right of it that shifts down underneath when the page scales to smaller screens. In the "projects" section, I embedded a few videos of audio projects I have completed in the past as placeholders and used my Horiseon project from the first homework assignment as an image that takes you to a link when clicked. I also added a link underneath the image that leads to the same page. Last, I added links in the contact me section that send me an email directly
- or take you to my linkedin page when you click the appropriately named links. 
+Examples of the projects I have worked on!
 
  ## Screenshot:
  
 
  ## Deployed Application:
  [Portfolio](https://mediazjr.github.io/Portfolio_hw2/)
+
+ ## Questions
+
+If you have any questions, feel free to [email](mediazjr@gmail.com) me!
+
+## License 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
