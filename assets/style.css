@@ -10,14 +10,13 @@
     padding-bottom: 20px;
     padding-left: 50px;
     /* margin-bottom: auto; */
-
 }
+
 .header h1 {
     background-color: lightblue;
     font-size: 40px;
     text-align: center;
     color: black;
-    
 }
 
 .header nav {
@@ -31,20 +30,18 @@
 
 .header a {
     background-color: lightblue;
-    
 }
-
 
 .container {
     margin: 10px 20px;
-
 }
+
 .flex-container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
+
 
 /* .flex-container h2 {
     
@@ -52,14 +49,13 @@
 } */
 
 .flex ul {
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 
 .contact h3 {
     margin-top: 50px;
     text-align: left;
-    
 }
 
 .contact ul {
@@ -85,46 +81,42 @@
     border: black;
     border-style: hidden;
     margin-top: 50px;
-    
 }
 
 .projects h2 {
     width: 100%;
-
 }
 
 .flexbox {
     flex: 1 0 25%
-
 }
 
 #text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
-
 }
 
-
 #footer h6 {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 50px;
-  background-color: lightblue;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue;
 }
 
 @media screen and (max-width: 768px) {
-    .projects, .header, .flex-container, .flexbox {
-    flex-direction: column;
-    
-}
+    .projects,
+    .header,
+    .flex-container,
+    .flexbox {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .projects, .header, .flex-container, .flexbox {
+    .projects,
+    .header,
+    .flex-container,
+    .flexbox {
         font-size: smaller;
-        
     }
 }
-    
-
-
