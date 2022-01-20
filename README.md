@@ -8,7 +8,7 @@ Examples of the projects I have worked on!
  
 
  ## Deployed Application:
- [Portfolio](https://mediazjr.github.io/Portfolio_hw2/)
+ [Portfolio](https://mediazjr.github.io/Portfolio/)
 
  ## Questions
 
