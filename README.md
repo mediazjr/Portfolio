@@ -6,7 +6,7 @@ For this assignment, I made a basic portfolio with a nav bar in the header that 
  or take you to my linkedin page when you click the appropriately named links. 
 
  ## Screenshot:
- ![mediazjr github io_Portfolio_hw2_](https://user-images.githubusercontent.com/91097193/141221591-b1579127-65a2-4122-b75f-4b2f12ecb2b5.png)
+ 
 
  ## Deployed Application:
  [Portfolio](https://mediazjr.github.io/Portfolio_hw2/)
