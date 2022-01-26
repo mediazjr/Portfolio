@@ -42,6 +42,12 @@
     justify-content: space-around;
 }
 
+.Me {
+    width: 45%;
+    height: 65%;
+    margin-left: 32%;
+}
+
 
 /* .flex-container h2 {
     
@@ -91,9 +97,14 @@
     flex: 1 0 25%
 }
 
+.Weather {
+width: 93.5%;
+height: 90%;
+}
+
 #text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 #footer h6 {
@@ -101,6 +112,10 @@
     text-align: center;
     padding: 50px;
     background-color: lightblue;
+}
+
+#about-me {
+    margin-top: 15%;
 }
 
 @media screen and (max-width: 768px) {
